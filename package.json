@@ -1,0 +1,30 @@
+{
+  "name": "koda7-node",
+  "version": "1.0.0",
+  "description": "learning node project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "echo Hello World",
+    "start": "node index.js",
+    "lint:init": "eslint --init",
+    "lint-fix": "eslint --fix",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "node",
+    "learning",
+    "koda"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.9.0",
+    "eslint": "^10.0.2",
+    "globals": "^17.4.0"
+  }
+}
